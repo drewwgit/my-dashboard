@@ -1,0 +1,105 @@
+*{
+  margin: 0; 
+  box-sizing: border-box;
+}
+
+#appbar {
+  background-color: aqua;
+  color: black;
+  box-shadow: none;
+}
+
+#sidebar {
+  min-width: 300px; 
+}
+
+#drawer {
+  display: flex; 
+  flex-direction: row;
+  text-align: center;
+  margin: 15px;
+}
+
+h3 {
+  color: blueviolet;
+}
+
+#typo, #typo2 {
+  color: blueviolet;
+  text-align: center;
+  margin: 15px;
+}
+
+.icons {
+  color: blueviolet; 
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.rest, .restb {
+  font-size: 40px;
+}
+
+.restb {
+  margin-bottom: 15px;
+}
+
+.box {
+  border: none;
+  border-radius: 5px;
+  margin-left: 100px;
+  width: 20%;
+  margin-top: 20px;
+  display: inline-block;
+  position: relative;
+}
+
+#scrollbox {
+  background-color: lightblue;
+  border: none;
+  color: aqua;
+}
+
+.card {
+  border: none; 
+  background-color: aqua;
+  color: black;
+}
+
+
+.bigCard {
+  border: none;
+  position: absolute;
+}
+
+
+.rev {
+  color: blueviolet;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
+.revNum {
+  font-style: italic;
+}
+
+
+#listScroll {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
