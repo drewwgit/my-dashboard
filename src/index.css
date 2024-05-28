@@ -58,9 +58,18 @@ p {
 }
 
 #scrollbox {
-  background-color: lightblue;
+  background-color: rgb(242, 240, 240);
   border: none;
-  color: aqua;
+  color: navy;
+  height: 300px;
+  margin: auto;
+  width: 30%;
+  position: relative;
+  border-radius: 5px;
+  overflow: scroll;
+  margin-right: 60px;
+  bottom: 300px;
+  border-top: 2px, solid, black;
 }
 
 .card {
@@ -91,10 +100,19 @@ p {
 #listScroll {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  border-top: 2px, solid, black;
 }
 
 
-
+.percent {
+  display: flex;
+  float: right;
+  position: relative;
+  bottom: 22px;
+  margin: 10px;
+  font-style: italic;
+}
 
 
 
